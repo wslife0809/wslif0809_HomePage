@@ -4,6 +4,7 @@
  */
 
 import { motion } from "motion/react";
+import logo from "./logo.png";
 import { 
   Youtube, 
   Instagram, 
@@ -88,7 +89,7 @@ export default function App() {
         >
           <div className="w-32 h-32 rounded-full border-4 border-white overflow-hidden bg-white shadow-2xl ring-4 ring-[#ffa54f]/20">
             <img 
-              src="/src/logo.png" 
+              src={logo} 
               alt="水緣君日常 Logo" 
               className="w-full h-full object-cover"
             />
